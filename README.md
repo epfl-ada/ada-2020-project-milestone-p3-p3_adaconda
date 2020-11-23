@@ -2,7 +2,7 @@
 
 ## Abstract
 The examined civil war paper shows that most models developed to date show poor performance at predicting civil war onset in out-of-sample data. This project will explore an extension of the work and analysis done in the civil war paper with the goal of enhancing the predictions. The project will be two-fold. First, a model based on artificial neural networks (ANN) will be implemented and evaluated on the original dataset. Secondly, data from the Global Terrorism Database will be added to the original features of the prediction model. The original dataset (civil war) spans from 1945 to 2000 while the added dataset (terrorism) spans from 1970 to 2018. For simplicity, the model will be developed on data from 1970 to 2000. A performance-evaluation will be performed to assess the utility of the terrorism data. Indeed, the hypothesis put forth by the authors:
-> There exist a correlation between terrorism attacks and civil war.
+> There exist a correlation between terrorist attacks and civil war.
 
 The new, enhanced model will be evaluated using ROC-curves and other relevant machine learning (specifically ANN) metrics.
 
