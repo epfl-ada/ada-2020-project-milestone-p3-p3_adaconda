@@ -1,9 +1,9 @@
 # Enhancing predicition of civil war onset with terrosism dataset and neural network model
 
-## abstract (~150 words) PAUL
-The examined civil war paper shows that most models developed to date show poor performance at predicting civil war onset in out-of-sample data. This project will explore an extension of the work and analysis done in the civil war paper with the goal of enhancing the predictions. The project will be two-fold. First, a model based on artificial neural networks will be implemented and evaluated on the original dataset. Secondly, data from the Global Terrorism Database will be added to the features of the prediction model and a performance-evaluation will be performed to assess the utility of the terrorism data. Indeed, the hypothesis put forth by the authors:
+## abstract
+The examined civil war paper shows that most models developed to date show poor performance at predicting civil war onset in out-of-sample data. This project will explore an extension of the work and analysis done in the civil war paper with the goal of enhancing the predictions. The project will be two-fold. First, a model based on artificial neural networks (ANN) will be implemented and evaluated on the original dataset. Secondly, data from the Global Terrorism Database will be added to the original features of the prediction model and a performance-evaluation will be performed to assess the utility of the terrorism data. Indeed, the hypothesis put forth by the authors:
 > There is a correlation between terrorism attacks and civil war.
-
+The new, enhanced model will be evaluated using ROC-curves and other relevant machine learning and ANN metrics.
 
 
 ## research question(s) 
