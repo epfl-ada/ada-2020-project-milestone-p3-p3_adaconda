@@ -9,22 +9,39 @@ The new, enhanced model will be evaluated using ROC-curves and other relevant ma
 
 ## research question(s) 
 Can we enhance the predicition power on civil war onset by adding additional features, such as terrorism data ?
-Can training artificial neural network improve prediction results compared to random forest ?
+Can training artificial neural network improve prediction results compared to Random Forest (RF) ?
 
 
-## proposed data set GREG
-1. terrorist attack data set (to merge with CWD)
+## proposed data set 
+Note : the different data set here would be merged into one to creat an extended civil war data set
+1. civil war data set (CDW)
+2. terrorist attack data set (to merge with CWD)
 	https://gtd.terrorismdata.com/
-2. civil war data set
+3.
 
 ## methods GREG
-1. add features to civil war data set to enhance model and predicitons
-2. apply artificial neural network to the CDW, and extended data set
-	neural network is a prediction method in the same family as random tree, so flexible
+We proposed two methods to improve the paper results
+1. Add more features to the CDWt to refine the result and then to enhance the models and the resulting prediction
+List of possible features:
+-terrorist attack
+	[not in the data set]
+-happiness -> Note : official world happiness index is recent so we have to calculate it on our own
+	[not in the data set, but we need a calculation method. several variable present in the data set : politcal status, school, literacy, gdp~living standard, infant mortality, life expectancy]
+-economic situation 
+	[gdpgrowth, and several other gdp related in the data set]
+-political system 
+	[mirps0,1,2,3 ,part of the 91 variables but not used for the linear regression]
+	[auto4,dem4,fedpol3,sip2
+-numbers of years since the last war (with a foreing country) 
+	[note in the data set]
+-number of years since the last civl war (easily calculated from the CDW)
 
-ROC plot -> neural network vs RF / more or less features
-cross validation
+2. Apply Artificial Neural Network (ANN) method to the original and extended CDW. Indeed, this method is a machine learning method such as Random Forest. The main point here is to determine if the results of the paper can be generalized to other machine learning method. the secondary purpose is to see how this method has a different efficency compare to Random Forest.
 
+To visualize and interprete the different models obtained we propose the following raphic method :
+- ROC plots 
+- k-folds cross validation
+- Plot of the variable importance in Gini Score
 ## proposed timeline JEAN
 
 ## organization JEAN 
