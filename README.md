@@ -23,18 +23,18 @@ Note : the different data set here would be merged into one to creat an extended
 We proposed two methods to improve the paper results
 1. Add more features to the CDWt to refine the result and then to enhance the models and the resulting prediction
 List of possible features:
--terrorist attack
+- terrorist attack
 	[not in the data set]
--happiness -> Note : official world happiness index is recent so we have to calculate it on our own
+- happiness -> Note : official world happiness index is recent so we have to calculate it on our own
 	[not in the data set, but we need a calculation method. several variable present in the data set : politcal status, school, literacy, gdp~living standard, infant mortality, life expectancy]
--economic situation 
+- economic situation 
 	[gdpgrowth, and several other gdp related in the data set]
--political system 
+- political system 
 	[mirps0,1,2,3 ,part of the 91 variables but not used for the linear regression]
 	[auto4,dem4,fedpol3,sip2
--numbers of years since the last war (with a foreing country) 
+- numbers of years since the last war (with a foreing country) 
 	[note in the data set]
--number of years since the last civl war (easily calculated from the CDW)
+- number of years since the last civl war (easily calculated from the CDW)
 
 2. Apply Artificial Neural Network (ANN) method to the original and extended CDW. Indeed, this method is a machine learning method such as Random Forest. The main point here is to determine if the results of the paper can be generalized to other machine learning method. the secondary purpose is to see how this method has a different efficency compare to Random Forest.
 
