@@ -55,3 +55,5 @@ Grég: RF
 All: interpretation, discussion, visualizations
 
 ## Questions for TA
+
+Regarding the civil war dataset: how can we determine from the country id (cid) what the actual country is?
