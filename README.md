@@ -3,6 +3,7 @@
 ## Abstract
 The examined civil war paper shows that most models developed to date show poor performance at predicting civil war onset in out-of-sample data. This project will explore an extension of the work and analysis done in the civil war paper with the goal of enhancing the predictive power. We want to know if the methods used in the paper are extensible to other Machine Learning methods. The project will be two-fold. First, a model based on artificial neural networks (ANN) and a Random forest model (RF) will be implemented and evaluated on the original dataset. Secondly, data from the Global Terrorism Database will be added to the original features of the prediction model. The original dataset (civil war) spans from 1945 to 2000 while the added dataset (terrorism) spans from 1970 to 2018. For simplicity, the model will be developed on data from 1970 to 2000. A performance-evaluation will be performed to assess the utility of the terrorism data. Indeed, the hypothesis put forth by the authors: 
 >There is a correlation between terrorist attacks and civil war onset. 
+
 We want to compare the efficiency of the two models: Random forest and the neural network. Furthermore, we want to propose and select features that could be important for the predictive power of the ANN and that seemed relevant for us.
 
 
