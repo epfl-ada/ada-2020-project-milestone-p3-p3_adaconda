@@ -20,7 +20,7 @@ Can training artificial neural network improve prediction results compared to Ra
 Note : the different data set here would be merged into one to create an extended civil war data set
 1. civil war data set (CDW)
 2. terrorist attack data set (to merge with CWD)
-	https://gtd.terrorismdata.com/
+	https://start.umd.edu/gtd/
 
 ## Methods
 We proposed two methods to improve the paper results:
