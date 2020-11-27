@@ -11,19 +11,18 @@ We want to compare the efficiency of the two models: Random forest and the neura
 The new, enhanced model will be evaluated using ROC-curves and other relevant machine learning (specifically ANN) metrics.
 
 
-## research question(s) 
+## Research questions 
 Can we enhance the predicition power on civil war onset by adding additional features, such as terrorism data ?
 Can training artificial neural network improve prediction results compared to Random Forest (RF) ?
 
 
-## proposed data set 
+## Proposed data set 
 Note : the different data set here would be merged into one to create an extended civil war data set
 1. civil war data set (CDW)
 2. terrorist attack data set (to merge with CWD)
 	https://gtd.terrorismdata.com/
-3.
 
-## methods
+## Methods
 We proposed two methods to improve the paper results:
 
 1. Add more features to the CDWt to refine the result and then to enhance the models and the resulting prediction
@@ -44,7 +43,7 @@ To visualize and interpret the different models obtained we propose the followin
 - Plot of the variable importance in Gini Score
 - Sensitivity analysis: we want to answer this question: how much do the parameters contribute to the prediction?
 
-## proposed timeline
+## Proposed timeline
 1. 4th December: Data wrangling, Training of models (RF, ANN)
 2. 11th December: Testing of models, results: visualization, interpretations, calculations
 3. 18th December: Deadline - Milestone P4, Code cleaning, code commenting, discussions
@@ -55,4 +54,4 @@ Paul: ANN
 Grég: RF
 All: interpretation, discussion, visualizations
 
-## questions for TA
+## Questions for TA
