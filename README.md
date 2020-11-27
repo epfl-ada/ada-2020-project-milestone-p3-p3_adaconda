@@ -13,7 +13,7 @@ Can training artificial neural network improve prediction results compared to Ra
 
 
 ## proposed data set 
-Note : the different data set here would be merged into one to creat an extended civil war data set
+Note : the different data set here would be merged into one to create an extended civil war data set
 1. civil war data set (CDW)
 2. terrorist attack data set (to merge with CWD)
 	https://gtd.terrorismdata.com/
@@ -38,12 +38,15 @@ List of possible features:
 
 2. Apply Artificial Neural Network (ANN) method to the original and extended CDW. Indeed, this method is a machine learning method such as Random Forest. The main point here is to determine if the results of the paper can be generalized to other machine learning method. the secondary purpose is to see how this method has a different efficency compare to Random Forest.
 
-To visualize and interprete the different models obtained we propose the following raphic method :
+To visualize and interprete the different models obtained we propose the following graphic methods :
 - ROC plots 
 - k-folds cross validation
 - Plot of the variable importance in Gini Score
-## proposed timeline JEAN
+## proposed timeline
+1. 4th December: Data wrangling, Training of models
+2. 11th December: Testing of models, results: visulization, interpretations
+3. 18th December: Deadline - Milestone P4, Code cleaning, code commenting, discussions
 
-## organization JEAN 
+## organization within the team
 
-## question for TA
+## questions for TA
